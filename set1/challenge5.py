@@ -1,5 +1,3 @@
-
-
 def repeating_XOR(input, cypher):
     i = 0
     l = []
@@ -15,4 +13,5 @@ I go crazy when I hear a cymbal'''
 input = bytearray(input, 'ascii')
 cypher = bytearray('ICE', 'ascii')
 
-print(repeating_XOR(input, cypher).hex())
+if __name__ == '__main__':
+    print(repeating_XOR(input, cypher).hex())
